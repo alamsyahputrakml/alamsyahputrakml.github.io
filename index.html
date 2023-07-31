@@ -1,10 +1,66 @@
-<!Doctype html>
-<html>
-  <head>
-    <title>my portofolio</title>
-  </head>
-  <body>
-    <h1>Wellcome world!</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Responsive 2.0</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul class="menunav">
+                <li class="list desktop">
+                    Portofolio
+                </li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#karya">Karya</a></li>
+                <li><a href="#contact">My contact</a></li>
+            </ul>
+        </div>
+        <div class="landing">
+            <h1 class="welcome">Selamat datang di portofolio online saya</h1>
+        </div>
+        <div id="about">
+            <div class="row">
+                <div class="tentang">
+                    <br/><br/>
+                    <img src="./img1.png" class="gambar1">
+                    <h2>Alamsyah Putra Kamal</h2>
+                    <p>Saya lair di kota makassar pada tanggal 25 Januari 1995, saya orang  yang sangat berambisi dan haus akan hal baru. Saya sangat senang belajar akan hal baru dan saya tidak masalah bekerja di bawah tekanan.</p>
+                </div>
+                <div class="akademik">
+                    <img src="./img2.png" class="gambar2">
+                    <h2>Sarjana Teknik</h2>
+                    <p>Memilih Fakultas Teknik jurusan teknik elektro di Universitas Muhammadiyah Makassar dengan IPK kelulusan 3.15</p>
+                </div>
+                <div class="mycv">
+                    <h2>Lihat CV saya selengkapnya <a href="">Disini</a></h2>
+                </div>
+            </div>
+        </div><br/>
+        <div id="karya">
+            <br/>
+            <h2>Berikut Karya saya yang bisa saya tampilkan</h2>
+            <!-- Disini nanti kita buat list gambar slide scroll dengan jenis card-->
+            <hr/><br/>
+        </div>
+        <div id="contact">
+            <br/>
+            <form action="" method="get" id="form1">
+                <label for="nama">Nama anda</label><br/>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan Namamu"><br/>
+                <label for="email">Email anda</label><br/>
+                <input type="text" id="email" name="email" placeholder="example@mail.com"><br/>
+                <label for="pesan">Apa yang ingin anda sampaikan?</label><br/>
+                <textarea id="pesan" name="pesan" placeholder="Apa yang anda ingin sampaikan"></textarea><br/>
+                <button id="submit" name="submit">Submit</button>
+            </form>
+            <a href="" class="topscrol">^</a>
+        </div>
+        <div id="footer">
+            ini Footer
+        </div>
+    </div>
+</body>
 </html>
-
