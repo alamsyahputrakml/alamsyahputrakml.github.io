@@ -53,6 +53,7 @@ li a:hover{
     margin: 0;
     width: 100%;
     top: 45%;
+    font-size:22px;
     text-align: center;
     color: white;
     transform: scale(.8);
